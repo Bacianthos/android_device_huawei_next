@@ -27,12 +27,6 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
-# Device infos
-PRODUCT_NAME := next
-PRODUCT_DEVICE := next
-PRODUCT_MANUFACTURER := HUAWEI
-PRODUCT_MODEL := next
-
 # Ramdisk
 PRODUCT_COPY_FILES += \
         $(LOCAL_PATH)/rootdir/init.balong_modem.rc:root/init.balong_modem.rc \

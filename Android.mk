@@ -17,8 +17,8 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(BOARD_VENDOR), Huawei)
 include $(call all-makefiles-under,$(LOCAL_PATH))
-endif 
+endif
 
 # Hacks for build
 $(shell mkdir -p $(OUT)/obj/SHARED_LIBRARIES/libminui_intermediates)
-$(shell touch $(OUT)/obj/SHARED_LIBRARIES/libminui_intermediates/export_includes) 
+$(shell touch $(OUT)/obj/SHARED_LIBRARIES/libminui_intermediates/export_includes)
