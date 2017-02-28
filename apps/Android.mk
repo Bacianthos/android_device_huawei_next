@@ -13,12 +13,13 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_PATH := $(call my-dir)
+LOCAL_PATH:= $(call my-dir)
 
-ifeq ($(BOARD_VENDOR), Huawei)
-include $(call all-makefiles-under,$(LOCAL_PATH))
-endif
-
-# Hacks for build
-$(shell mkdir -p $(OUT)/obj/SHARED_LIBRARIES/libminui_intermediates)
-$(shell touch $(OUT)/obj/SHARED_LIBRARIES/libminui_intermediates/export_includes)
+include $(CLEAR_VARS)
+LOCAL_MODULE := OpenGapps
+LOCAL_SRC_FILES := $(LOCAL_MODULE).apk
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+LOCAL_CERTIFICATE := PRESIGNED
+include $(BUILD_PREBUILT)
