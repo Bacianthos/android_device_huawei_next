@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/device_next.mk
+    $(LOCAL_DIR)/lineage.mk

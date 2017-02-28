@@ -1,11 +1,8 @@
-# Release name
-PRODUCT_RELEASE_NAME := next
-
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/huawei/next/device_next.mk)
+$(call inherit-product, device/huawei/next/device.mk)
 
 # .PROP OVERRIDE
 
@@ -21,3 +18,4 @@ PRODUCT_NAME := lineage_next
 PRODUCT_BRAND := huawei
 PRODUCT_MODEL := next
 PRODUCT_MANUFACTURER := HUAWEI
+PRODUCT_RELEASE_NAME := next
