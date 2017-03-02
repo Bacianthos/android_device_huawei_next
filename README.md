@@ -15,7 +15,7 @@ Vendor      | https://github.com/PaulFasola/proprietary_vendor_huawei
 Kernel      | https://github.com/PaulFasola/android_device_kernel_next  
   
   
-Jenkins url : [jenkins.paulfasola.fr](jenkins.paulfasola.fr)
+Jenkins url : [http://jenkins.paulfasola.fr](jenkins.paulfasola.fr)
 
 <br />
 
