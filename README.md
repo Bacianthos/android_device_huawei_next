@@ -5,6 +5,7 @@ Device configuration for Huawei Mate 8
 ![building: yes](https://img.shields.io/badge/building:-yes-green.svg "building-yes")
 ![booting: yes](https://img.shields.io/badge/booting:-yes-green.svg "booting-yes")
 <br/><br/>
+
 **Porting state :** [click here](https://github.com/PaulFasola/android_device_huawei_next/projects/1)
 
 
@@ -12,6 +13,10 @@ Repository  | Url
 -----------:|:-------------------------
 Vendor      | https://github.com/PaulFasola/proprietary_vendor_huawei
 Kernel      | https://github.com/PaulFasola/android_device_kernel_next  
+  
+  
+Jenkins url : [jenkins.paulfasola.fr](jenkins.paulfasola.fr)
+
 <br />
 
 Basic   | Spec Sheet
